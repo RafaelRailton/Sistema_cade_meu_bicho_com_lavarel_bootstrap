@@ -13,11 +13,11 @@
     <input type="hidden" value="{{$animal->id}}">
 <div class="form-group">
     <label for="name">Nome:</label>
-    <input type="text" class="form-control" id="nome" name="user_encontrou[]" placeholder="Nome de quem encontrou a(o) {{$animal->nome}}...">
+    <input type="text" class="form-control" id="nome" name="user_encontrou[]" placeholder="Nome de quem encontrou a(o) {{$animal->nome}}..." required>
 </div>
 <div class="form-group">
     <label for="name">Telefone:</label>
-    <input type="text" class="form-control" id="telefone" name="user_encontrou[]" placeholder="Telefone para Contato...">
+    <input type="text" class="form-control" id="telefone" name="user_encontrou[]" placeholder="Telefone para Contato..." required>
 </div>
 <div class="form-group">
 

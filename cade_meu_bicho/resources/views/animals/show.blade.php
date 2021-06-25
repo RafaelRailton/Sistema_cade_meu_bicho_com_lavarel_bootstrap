@@ -44,7 +44,7 @@
 @else
 <h3>Não Possuí informações Cadastradas que possam ajudar a encontrar o(a) {{$animal->nome}}!</h3>
 @endif
-@if($animal->status =!1)
+@if($animal->status ==0)
 <h3>Encontrou seu Animal? se sim, confirme:</h3>
 <form action="/animals/encontrei_confirm/{{$animal->id}}" method="post">
 @csrf

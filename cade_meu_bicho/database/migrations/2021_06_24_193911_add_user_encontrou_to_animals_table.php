@@ -14,7 +14,7 @@ class AddUserEncontrouToAnimalsTable extends Migration
     public function up()
     {
         Schema::table('animals', function (Blueprint $table) {
-            $table->json('user_encontrou');
+            $table->json('user_encontrou')->nullable();
         });
     }
 
